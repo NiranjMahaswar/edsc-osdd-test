@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
   <ShortName>edsc-ssrf</ShortName>
-  <Description>second hop xml</Description>
-  <Url type="application/atom+xml" template="https://httpbin.org/xml?count={count?}&amp;id={datasetId?}"/>
+  <Description>ssrf canary</Description>
+  <Url type="application/atom+xml" indexOffset="0" template="https://raw.githubusercontent.com/NiranjMahaswar/edsc-osdd-test/master/canary.xml?count={count?}&amp;id={datasetId?}&amp;start={startIndex?}"/>
 </OpenSearchDescription>
